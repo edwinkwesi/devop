@@ -1,0 +1,24 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t edwinkwesi/devops -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true edwinkwesi/devops npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "Docker"
+  env: "Docker-env"
+  bucket_path: "Docker"
+
+on:
+  branch: master
+
+access_key_id:
+  secure: "$AWS_ACCESS_KEY"
+secret_access_key: 
+  secure: "$AWS_SECRET_KEY" 
