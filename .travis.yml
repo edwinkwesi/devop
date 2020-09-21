@@ -15,7 +15,7 @@ deploy:
   env: "Docker-env"
   bucket_path: "Docker"
   skip_cleanup: true
-  edge: true
+
 on:
   branch: master
 access_key_id: AKIA57KRQYCHZUYBWOGE 
