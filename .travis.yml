@@ -18,8 +18,7 @@ deploy:
   edge: true
 on:
   branch: master
-access_key_id:
-  secure: AKIA57KRQYCHZUYBWOGE 
+access_key_id: AKIA57KRQYCHZUYBWOGE 
 secret_access_key: 
     secure: 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
 
