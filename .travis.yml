@@ -14,11 +14,12 @@ deploy:
   app: "Docker"
   env: "Docker-env"
   bucket_path: "Docker"
-
+  skip_cleanup: true
+  edge: true
 on:
   branch: master
 access_key_id:
-  secure: $AWS_ACCESS_KEY
+  secure: AKIA57KRQYCHZUYBWOGE 
 secret_access_key: 
-    secure: $AWS_SECRET_KEY
- 
+    secure: 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
+
