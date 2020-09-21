@@ -14,7 +14,7 @@ deploy:
   app: "Docker"
   env: "Docker-env"
   bucket_path: "Docker"
-  skip_cleanup: true
+
 
 on:
   branch: master
