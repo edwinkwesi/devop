@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> commit 500 % to your goals Dont quit , never.
+          Edit <code>src/App.js</code> commit 500 % to your goals Dont quit , never, your success is based on your commitment.
         </p>
         <a
           className="App-link"
