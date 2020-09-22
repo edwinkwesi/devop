@@ -18,7 +18,6 @@ deploy:
   bucket_name: "elasticbeanstalk-us-east-1-960633028751"
   bucket_path: "websrv"
   
-
 on:
   branch: master
 
